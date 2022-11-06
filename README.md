@@ -5,8 +5,9 @@
 
 ## Contents
 > |Ch#|Chapter Subject|Note|
-> |:---:|---|---|---|
+> |:---:|---|---|
 > |1|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/LazyGrid.md)|Collaboration between List and Grid!|
+>
 
 ## Contact Me
 📧 dh3183@naver.com
