@@ -12,9 +12,9 @@ GridItem의 인스턴스들은 <code>LazyVGrid</code>와 <code>LazyHGrid</code>�
 
 ### GridItem의 Size
 GridItem의 Size는 총 세 가지 Type이 있다.
-- adaptive(LazyVGrid의 경우)
+- adaptive(LazyVGrid의 경우)<br>
 ➡️ minimum 값 이상의 Size로 열마다 가능한 많이 아이템들을 배치하고자 할 때 사용되는 사이즈다.
-- flexible(LazyVGrid의 경우) 
+- flexible(LazyVGrid의 경우)<br>
 ➡️ minimum 값 이상의 사이즈로 column 수를 조절 하고 싶을 때 사용되는 사이즈다. adaptive와 유사하나 열마다 배치되는 아이템 수를 조절할 수 있다는 점에서 다르다.
-- fixed(LazyVGrid의 경우) 
+- fixed(LazyVGrid의 경우)<br> 
 ➡️ column 수와 크기를 직접 조절하고 싶을 때 사용하는 사이즈다.
