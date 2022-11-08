@@ -7,6 +7,11 @@
 > |Ch#|Chapter Subject|Note|
 > |:---:|---|---|
 > |1|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/LazyGrid.md)|Collaboration between List and Grid!|
+> |2|URLSession||||
+> |3|UIImagePickerController||||
+> |4|KakaoMap API||||
+> |5|Firebase||||
+> |6|Core Data||||
 >
 
 ## Contact Me
