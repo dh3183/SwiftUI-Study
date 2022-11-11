@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView{
-            LazyVStack{
+        ScrollView(.vertical){
+            LazyVStack(alignment: .center, spacing: 10){
                 ForEach(1...100, id: \.self) {
                     Text("텍스트 \($0)")
                 }
