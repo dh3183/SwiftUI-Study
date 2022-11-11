@@ -1,4 +1,6 @@
 # LazyGrid
+<img src= "https://user-images.githubusercontent.com/83414134/201268159-49a87c32-ec29-4440-beb0-6e670067276f.gif" width="300"> <img src= "https://user-images.githubusercontent.com/83414134/201268877-7dad4a44-2d35-40d3-ba15-0ed5eba6ec84.gif" width="300">
+
 Stack View에 Lazy가 붙은 형태이다.
 ScrollView안에 StackView를 사용하는데 뷰를 처음부터 사용 하는 것이 아닐 때, 말 그대로 lazy하게 사용할 때 사용한다.
 
