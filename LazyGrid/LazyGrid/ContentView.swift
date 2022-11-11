@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Frist SwiftUI")
+        ScrollView{
+            LazyVStack{
+                ForEach(1...100, id: \.self) {
+                    Text("텍스트 \($0)")
+                }
+            }
+        }
     }
 }
 
