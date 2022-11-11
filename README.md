@@ -8,9 +8,9 @@
 > |:---:|---|---|
 > |1|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/LazyGrid.md)|Collaboration between List and Grid!|
 > |2|Alamofire||||
-> |3|URLSession||||
-> |4|UIImagePickerController||||
-> |5|KakaoMap API||||
+> |3|Kakao SDK for iOS||||
+> |4|URLSession||||
+> |5|UIImagePickerController||||
 > |6|Firebase||||
 > |7|Core Data||||
 >
