@@ -1,6 +1,9 @@
 # LazyGrid
-LazyGrid는 Vertical과 Horizontal에 따라 나뉩니다.
-<code>LazyVGrid</code> <code>LazyHGrid</code>
+Stack View에 Lazy가 붙은 형태이다.
+ScrollView안에 StackView를 사용하는데 뷰를 처음부터 사용 하는 것이 아닐 때, 말 그대로 lazy하게 사용할 때 사용한다.
+
+* iOS 14부터 지원한다.
+* LazyGrid는 Vertical과 Horizontal에 따라 나뉜다. <code>LazyVGrid</code> <code>LazyHGrid</code>
 
 ## H와 V의 선택지
 Item들이 쌓이는 방향에 따라 선택하면 되는데 
