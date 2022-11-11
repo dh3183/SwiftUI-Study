@@ -6,12 +6,13 @@
 ## Contents
 > |Ch#|Chapter Subject|Note|
 > |:---:|---|---|
-> |1|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/LazyGrid.md)|Collaboration between List and Grid!|
-> |2|Alamofire||||
-> |3|Kakao Login[Kakao SDK]||||
-> |4|UIImagePickerController||||
-> |5|Firebase||||
-> |6|Core Data||||
+> |1|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/LazyGrid.md)|Collaboration between List and Grid!|
+> |2|Custom Tabbar|Customized to my taste🧑🏻‍🎨|
+> |3|Alamofire||
+> |4|[Kakao Login[Kakao SDK]](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Kakao%20Login.md)||
+> |5|UIImagePickerController||
+> |6|Firebase||
+> |7|Core Data||
 >
 
 ## Contact Me
