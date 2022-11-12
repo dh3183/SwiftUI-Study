@@ -6,9 +6,9 @@
 ## Contents
 > |Ch#|Chapter Subject|Note|
 > |:---:|---|---|
-> |1|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/LazyGrid.md)|Collaboration between List and Grid!|
-> |2|[Custom Tabbar](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/CustomTabbar.md)|Customized to my taste🧑🏻‍🎨|
-> |3|Alamofire||
+> |1|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/LazyGrid.md)|Collaboration between List and Grid 👀|
+> |2|[Custom Tabbar](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/CustomTabbar.md)|Customized to my taste 🧑🏻‍🎨|
+> |3|Alamofire|Flower of http network communication 🌼|
 > |4|[Kakao Login[Kakao SDK]](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Kakao%20Login.md)||
 > |5|UIImagePickerController||
 > |6|Firebase||
