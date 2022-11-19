@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        TabView {
+            FirstV()
+                .tabItem{
+                    Image(systemName: "house")
+                    Text("홈")
+                }
+            SecondV()
+                .tabItem{
+                    Image(systemName: "plus")
+                    Text("추가")
+                }
+            ThirdV()
+                .tabItem{
+                    Image(systemName: "magnifyingglass")
+                    Text("검색")
+                }
+        }.tint(Color.teal)
+            .onAppear(){
+                UITabBar.appearance().barTintColor = .brown
+            }
     }
 }
 
