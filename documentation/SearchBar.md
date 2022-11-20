@@ -1,5 +1,5 @@
 ### SearchBar
-<img src="https://user-images.githubusercontent.com/83414134/202925396-5a33ac55-82c9-41c2-a9c7-52c2038341d1.gif" width="200">
+<img src="https://user-images.githubusercontent.com/83414134/202925396-5a33ac55-82c9-41c2-a9c7-52c2038341d1.gif" width="300">
 
 UI는 두 개의 파일로 나눈다.
 
