@@ -8,10 +8,11 @@
 > |:---:|---|---|
 > |1|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/LazyGrid.md)|Collaboration between List and Grid 👀|
 > |2|[TabView](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/TabView.md)|It's basic, but it's to be faithful 🙂|
-> |3|Alamofire|Flower of http network communication 🌼|
-> |4|UIImagePickerController||
-> |5|Firebase||
-> |6|Core Data||
+> |3|SearchBar|Search: How to coding well 👨🏻‍💻|
+> |4|Alamofire|Flower of http network communication 🌼|
+> |5|UIImagePickerController||
+> |6|Firebase||
+> |7|Core Data||
 >
 
 ## Contact Me
