@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B5DE8258292B045B00F67966 /* modalpraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE8257292B045B00F67966 /* modalpraApp.swift */; };
-		B5DE825A292B045B00F67966 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE8259292B045B00F67966 /* ContentView.swift */; };
 		B5DE825C292B045C00F67966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DE825B292B045C00F67966 /* Assets.xcassets */; };
 		B5DE825F292B045C00F67966 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DE825E292B045C00F67966 /* Preview Assets.xcassets */; };
+		B5DE8268292B0B4F00F67966 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE8267292B0B4F00F67966 /* Main.swift */; };
+		B5DE826A292B0DC900F67966 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE8269292B0DC900F67966 /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B5DE8254292B045B00F67966 /* modalpra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modalpra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DE8257292B045B00F67966 /* modalpraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalpraApp.swift; sourceTree = "<group>"; };
-		B5DE8259292B045B00F67966 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5DE825B292B045C00F67966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5DE825E292B045C00F67966 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5DE8267292B0B4F00F67966 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		B5DE8269292B0DC900F67966 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				B5DE8257292B045B00F67966 /* modalpraApp.swift */,
-				B5DE8259292B045B00F67966 /* ContentView.swift */,
+				B5DE8267292B0B4F00F67966 /* Main.swift */,
+				B5DE8269292B0DC900F67966 /* ModalView.swift */,
 				B5DE825B292B045C00F67966 /* Assets.xcassets */,
 				B5DE825D292B045C00F67966 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5DE825A292B045B00F67966 /* ContentView.swift in Sources */,
+				B5DE826A292B0DC900F67966 /* ModalView.swift in Sources */,
+				B5DE8268292B0B4F00F67966 /* Main.swift in Sources */,
 				B5DE8258292B045B00F67966 /* modalpraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
