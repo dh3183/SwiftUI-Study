@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct Main: View {
-    @State private var showModal = false
+    @State private var isShowingSheet = false
     
     var body: some View {
         VStack{
             Text("모달은 수달")
             Button(action: {
-                self.showModal = true
+                self.isShowingSheet = true
             }){
                 Text("깔깔깔 🤭").bold()
             }
@@ -22,7 +22,7 @@ struct Main: View {
             .background(RoundedRectangle(cornerRadius: 10).fill(.green))
             .font(.system(size: 16))
             .foregroundColor(Color.white)
-            .sheet(isPresented: self.$showModal) {
+            .sheet(isPresented: self.$isShowingSheet) {
                 ModalView()
             }
         }
