@@ -10,7 +10,7 @@
 > |2|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/LazyGrid.md)|Collaboration between List and Grid 📐|
 > |3|[TabView](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/TabView.md)|It's basic, but it's to be faithful 🙂|
 > |4|[SearchBar](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/SearchBar.md)|Search: How to coding well 👨🏻‍💻|
-> |5|Map Kit|Apple's Maps 🧭|
+> |5|Segmented Control|The screen in the screen 🖥️|
 >
 
 ## Contact Me
