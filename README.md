@@ -6,7 +6,7 @@
 ## Contents
 > |Ch#|Chapter Subject|Note|
 > |:---:|---|---|
-> |1|Data Flow|It's both key pillars and basic 😉|
+> |1|[Data Flow](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Data%20Flow.md)|It's both key pillars and basic 😉|
 > |2|[Modal](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Modal.md)|Softly.. Softly.. 👀|
 > |3|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/LazyGrid.md)|Collaboration between List and Grid 📐|
 > |4|[TabView](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/TabView.md)|It's basic, but it's to be faithful 🙂|
