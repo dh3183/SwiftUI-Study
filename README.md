@@ -6,11 +6,12 @@
 ## Contents
 > |Ch#|Chapter Subject|Note|
 > |:---:|---|---|
-> |1|[Modal](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Modal.md)|Softly.. Softly.. 👀|
-> |2|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/LazyGrid.md)|Collaboration between List and Grid 📐|
-> |3|[TabView](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/TabView.md)|It's basic, but it's to be faithful 🙂|
-> |4|[SearchBar](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/SearchBar.md)|Search: How to coding well 👨🏻‍💻|
-> |5|[Segmented Control](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Segmented%20Control.md)|The screen in the screen 🖥️|
+> |1|Data Flow|It's both key pillars and basic 😉|
+> |2|[Modal](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Modal.md)|Softly.. Softly.. 👀|
+> |3|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/LazyGrid.md)|Collaboration between List and Grid 📐|
+> |4|[TabView](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/TabView.md)|It's basic, but it's to be faithful 🙂|
+> |5|[SearchBar](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/SearchBar.md)|Search: How to coding well 👨🏻‍💻|
+> |6|[Segmented Control](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Segmented%20Control.md)|The screen in the screen 🖥️|
 >
 
 ## Contact Me
