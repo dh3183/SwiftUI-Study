@@ -12,6 +12,7 @@
 > |4|[TabView](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/TabView.md)|It's basic, but it's to be faithful 🙂|
 > |5|[SearchBar](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/SearchBar.md)|Search: How to coding well 👨🏻‍💻|
 > |6|[Segmented Control](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Segmented%20Control.md)|The screen in the screen 🖥️|
+> |7|[Skeleton View]()|Place a loading view to show the user that you are working. 📡|
 >
 
 ## Contact Me
