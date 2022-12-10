@@ -1,5 +1,5 @@
-### Modal (feat. 보노보노)
-<img src="https://velog.velcdn.com/images/elbin/post/16c70ac2-275f-4563-99f5-13f084fab63f/image.gif" width="200">
+### 🎁 Modal (feat. 보노보노)
+<img src="https://user-images.githubusercontent.com/83414134/206870686-257d2f38-6bb9-4840-8b8d-7d3d7ca4f69b.gif" width="300">
 
 ```Swift
 //  Main.swift
@@ -39,5 +39,25 @@ Main View에선 modal로 이동하는것에 대한 검증을 위해 Bool 변수�
 
 Button의 action은 isShowingSheet을 true로 변경시키면 sheet의 isPresented로 인해 ModalView로 이동하게 된다.
 
-### Documentation
-https://developer.apple.com/documentation/charts/chart/sheet(ispresented:ondismiss:content:)/
+### 🥑 Documentation
+
+#### 🍞 Declaration
+Presents a sheet when a binding to a Boolean value that you provide is true.
+
+#### 🍞 Parameters
+* **isPresented**
+A binding to a Boolean value that determines whether to present the sheet that you create in the modifier’s content closure.
+
+* **onDismiss**
+The closure to execute when dismissing the sheet.
+
+* **content**
+A closure that returns the content of the sheet.
+
+```Swift
+func sheet<Content>(
+    isPresented: Binding<Bool>,
+    onDismiss: (() -> Void)? = nil,
+    content: @escaping () -> Content
+) -> some View where Content : View
+```
