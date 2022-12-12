@@ -1,8 +1,6 @@
 ## 🎁 Skeleton View
 ### 🥑 미리보는 완성
-<img src="https://user-images.githubusercontent.com/83414134/207156244-bc377146-8b81-4be1-bcce-a9fb65348948.gif" width="200">
-
-<img src="https://velog.velcdn.com/images%2Fdvhuni%2Fpost%2F273c77cb-5339-41eb-b5fe-7e22a72204f7%2F1.PNG" width="185">
+<img src="https://user-images.githubusercontent.com/83414134/207156244-bc377146-8b81-4be1-bcce-a9fb65348948.gif" width="200">  <img src="https://velog.velcdn.com/images%2Fdvhuni%2Fpost%2F273c77cb-5339-41eb-b5fe-7e22a72204f7%2F1.PNG" width="185">
 
 당근마켓이나, 원티드의 서비스를 이용하시다 보면 데이터를 불러오는 동안
 일반적인 Loading Indicator와는 다르게 미리 어떤 내용들이 있는지 대략적인 형태를 보여줍니다.
