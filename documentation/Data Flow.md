@@ -1,4 +1,4 @@
-b## 🎁 Data Flow
+## 🎁 Data Flow
 > 본 문서는 WWDC19의 Data Flow Through SwiftUI를 시청 후 이를 기반으로 정리한 문서입니다.
 
 * SwiftUI는 훌륭한 앱을 만드는 최단 경로이지만 UI의 복잡성을 해결한다는 목표로 처음부터 설계했으며 이것은 <b>일급 객체(first class citizen)</b>를 의미
