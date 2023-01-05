@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		B570369E2962AD9E00D3EE74 /* FormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570369D2962AD9E00D3EE74 /* FormApp.swift */; };
-		B57036A02962AD9E00D3EE74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570369F2962AD9E00D3EE74 /* ContentView.swift */; };
+		B57036A02962AD9E00D3EE74 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570369F2962AD9E00D3EE74 /* SettingsView.swift */; };
 		B57036A22962AD9F00D3EE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57036A12962AD9F00D3EE74 /* Assets.xcassets */; };
 		B57036A52962AD9F00D3EE74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57036A42962AD9F00D3EE74 /* Preview Assets.xcassets */; };
+		B5B4FA81296400DB0071F5F8 /* WifiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4FA80296400DB0071F5F8 /* WifiListView.swift */; };
+		B5B4FA83296417EA0071F5F8 /* NetworkingRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4FA82296417EA0071F5F8 /* NetworkingRequestView.swift */; };
+		B5B4FA85296420250071F5F8 /* HotspotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4FA84296420250071F5F8 /* HotspotView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B570369A2962AD9E00D3EE74 /* Form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Form.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B570369D2962AD9E00D3EE74 /* FormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormApp.swift; sourceTree = "<group>"; };
-		B570369F2962AD9E00D3EE74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B570369F2962AD9E00D3EE74 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B57036A12962AD9F00D3EE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B57036A42962AD9F00D3EE74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5B4FA80296400DB0071F5F8 /* WifiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiListView.swift; sourceTree = "<group>"; };
+		B5B4FA82296417EA0071F5F8 /* NetworkingRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingRequestView.swift; sourceTree = "<group>"; };
+		B5B4FA84296420250071F5F8 /* HotspotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotspotView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				B570369D2962AD9E00D3EE74 /* FormApp.swift */,
-				B570369F2962AD9E00D3EE74 /* ContentView.swift */,
+				B570369F2962AD9E00D3EE74 /* SettingsView.swift */,
+				B5B4FA80296400DB0071F5F8 /* WifiListView.swift */,
+				B5B4FA82296417EA0071F5F8 /* NetworkingRequestView.swift */,
+				B5B4FA84296420250071F5F8 /* HotspotView.swift */,
 				B57036A12962AD9F00D3EE74 /* Assets.xcassets */,
 				B57036A32962AD9F00D3EE74 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57036A02962AD9E00D3EE74 /* ContentView.swift in Sources */,
+				B57036A02962AD9E00D3EE74 /* SettingsView.swift in Sources */,
 				B570369E2962AD9E00D3EE74 /* FormApp.swift in Sources */,
+				B5B4FA83296417EA0071F5F8 /* NetworkingRequestView.swift in Sources */,
+				B5B4FA81296400DB0071F5F8 /* WifiListView.swift in Sources */,
+				B5B4FA85296420250071F5F8 /* HotspotView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

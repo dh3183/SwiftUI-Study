@@ -7,12 +7,21 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SettingsView: View {
+    @State var searchText = ""
     @State var toggling = false
+    @State var wifiConnection = false
     
     var body: some View {
         NavigationStack {
             Form {
+                Section {
+                    HStack {
+                        Image(systemName: "magnifyingglass")
+                            .padding(0)
+                        TextField("검색", text: $searchText)
+                    }
+                }
                 Section {
                     NavigationLink(destination: Text("Apple ID")) {
                         Image("blue")
@@ -27,7 +36,7 @@ struct ContentView: View {
                         }
                     }
                 }
-                Section("Section1") {
+                Section {
                     HStack {
                         Image(systemName: "airplane")
                             .resizable()
@@ -41,17 +50,19 @@ struct ContentView: View {
                             Text("에어플레인 모드")
                         }
                     }
-                    NavigationLink(destination: Text("Wi-Fi 화면")) {
-                        Image(systemName: "wifi")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 20, height: 20)
-                            .padding(4)
-                            .background(Color(red: 52/255, green: 120/255, blue: 246/255))
-                            .foregroundStyle(.white)
-                            .cornerRadius(6)
-                        Text("Wi-Fi")
-                    }
+                    NavigationLink(destination: WifiListView()
+                        .navigationBarItems(trailing: EditButton())
+                        .navigationTitle("Wi-Fi") .navigationBarTitleDisplayMode(.inline)) {
+                            Image(systemName: "wifi")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 20, height: 20)
+                                .padding(4)
+                                .background(Color(red: 52/255, green: 120/255, blue: 246/255))
+                                .foregroundStyle(.white)
+                                .cornerRadius(6)
+                            Text("Wi-Fi")
+                        }
                     NavigationLink(destination: Text("셀룰러 화면")) {
                         Image(systemName: "antenna.radiowaves.left.and.right")
                             .resizable()
@@ -64,7 +75,7 @@ struct ContentView: View {
                         Text("셀룰러")
                     }
                 }
-                Section("Section2") {
+                Section {
                     NavigationLink(destination: Text("알림 화면")) {
                         Image(systemName: "bell.badge.fill")
                             .resizable()
@@ -115,8 +126,8 @@ struct ContentView: View {
         }
     }
 }
-struct ContentView_Previews: PreviewProvider {
+struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SettingsView()
     }
 }
