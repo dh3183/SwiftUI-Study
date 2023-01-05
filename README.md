@@ -7,7 +7,7 @@
 > |Ch#|Chapter Subject|Note|
 > |:---:|---|---|
 > |1|[Data Flow](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Data%20Flow.md)|Learn more about DataFlow with WWDC19 😉|
-> |2|[Form](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Form.md)||
+> |2|[Form](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Form.md)|Form & Section|
 > |3|[Toggle, ToggleStyle]()||
 > |4|[Modal](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Modal.md)|Softly.. Softly.. 👀|
 > |5|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/LazyGrid.md)|Collaboration between List and Grid 📐|
