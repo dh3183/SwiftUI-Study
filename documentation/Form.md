@@ -7,6 +7,7 @@
 </span>
 
 * settings 혹은 inspectors와 같이 데이터 입력에 사용되는 컨트롤을 그룹화하기위한 컨테이너다.
+* HTML의 Form과 유사하다.
 
 ### 🥑 Form : Declaration
 ```Swift
@@ -23,3 +24,5 @@ struct Form<Content> where Content : View
 ```Swift
 struct Section<Parent, Content, Footer>
 ```
+
+> 해당 문서의 이미지는 iOS의 설정 화면을 Clone하여 구현헀다.
