@@ -20,7 +20,6 @@
 > |12|[Segmented Control](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Segmented%20Control.md)|The screen in the screen 🖥️|
 > |13|[Skeleton View](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Skeleton%20View.md)|Place a loading view to show the user that you are working. 📡|
 > |14|Infinite Scroll||
-> |15|Combine||
 >
 ## Contact Me
 📧 dh3183@naver.com
