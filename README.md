@@ -12,7 +12,7 @@
 > |4|[Form](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Form.md)|Form & Section|
 > |5|[Modal](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Modal.md)|Softly.. Softly.. 👀|
 > |6|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/LazyGrid.md)|Collaboration between List and Grid 📐|
-> |7|Geometry||
+> |7|[Geometry](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Geometry.md)|GeometryReader, GeometryProxy|
 > |8|[TabView](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/TabView.md)|It's basic, but it's to be faithful 🙂|
 > |9|[SearchBar](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/SearchBar.md)|Search: How to coding well 👨🏻‍💻|
 > |10|[Drag and drop]()|Lift and let go, Lift and let go 😏|
