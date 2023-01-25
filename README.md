@@ -7,8 +7,8 @@
 > |Ch#|Chapter Subject|Note|
 > |:---:|---|---|
 > |1|[Data Flow](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Data%20Flow.md)|Learn more about DataFlow with WWDC19 😉|
-> |2|Modifier||
-> |3|ontainer view||
+> |2|[Modifier](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Modifier.md)|Easy but important|
+> |3|Container view||
 > |4|Overlay, Background, Alignment||
 > |5|[Form](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Form.md)|Form & Section|
 > |6|[Modal](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Modal.md)|Softly.. Softly.. 👀|
