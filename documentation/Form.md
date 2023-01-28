@@ -26,3 +26,70 @@ struct Section<Parent, Content, Footer>
 ```
 
 > 해당 문서의 이미지는 iOS의 설정 화면을 Clone하여 구현헀다.
+
+## 🥑 Group
+> A type that collects multiple instances of a content type — like views, scenes, or commands — into a single unit.
+
+"View, Scenes, Command와 같은 content type의 여러 인스턴스를 하나의 단위로 수집하는 유형"이라고라고 한다.
+
+* Group을 사용해 여러 뷰를 single instance로 수집할 때 HStack, VStack 또는 Section과 같은 View의 레이아웃에 영향을 주지 않습니다.
+* Group을 만든 후 Group에 적용하는 모든 modifier는 해당 Group의 모든 member들에게 영향을 미칩니다.
+* 예를 들어, 다음 코드는 Group의 세 개의 View에 Headline font를 적용합니다.
+
+```Swift
+HStack {
+    Group {
+        Text("SwiftUI")
+        Text("Combine")
+        Text("Swift System")
+    }
+    .font(.headline)
+}
+VStack {
+    Group {
+        Text("SwiftUI")
+        Text("Combine")
+        Text("Swift System")
+    }
+    .font(.headline)
+}
+HStack {
+    Group {
+        Text("SwiftUI")
+        Text("Combine")
+        Text("Swift System")
+    }
+    .font(.headline)
+}
+```
+
+## 🥑 GroupBox
+> A stylized view, with an optional label, that visually collects a logical grouping of content.
+
+content의 logical 그룹과 연관된 optional label이 있는 stylized view다.
+
+### 🍞 GroupBox: Declaration
+```Swift
+struct GroupBox<Label, Content> where Label : View, Content : View
+```
+
+### 🍞 GroupBox: Example
+<img width="300" src="https://user-images.githubusercontent.com/83414134/215262630-f22c3df4-6938-4a5e-810d-67877d24f064.png">
+
+```Swift
+var body: some View {
+    GroupBox(label:
+                Label("End-User Agreement", systemImage: "building.columns")
+    ) {
+        ScrollView(.vertical, showsIndicators: true) {
+            Text(agreementText)
+                .font(.footnote)
+        }
+        .frame(height: 100)
+        Toggle(isOn: $userAgreed) {
+            Text("I agree to the above terms")
+        }
+    }
+}
+```
+사용자 인터페이스의 일부를 상자에 표시된 내용에 대한 optional Title과 기본적으로 배경색이 들어가기 때문에 시각적으로 구분해준다.
