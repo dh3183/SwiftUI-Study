@@ -11,7 +11,7 @@
 > |3|[ViewBuilder](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/ViewBuilder.md)|A custom parameter attribute that constructs views from closures.|
 > |4|[@frozen](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/%40frozen.md)|@frozen What does that mean?|
 > |5|Container view||
-> |6|Gesture|Tab Tab|
+> |6|[Gesture](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Gestures.md)|Tab Tab|
 > |7|[Form](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Form.md)|Form, Section, Group, Group Box|
 > |8|[Modal](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/Modal.md)|Softly.. Softly.. 👀|
 > |9|[LazyGrid](https://github.com/dh3183/SwiftUI-Study/blob/main/documentation/LazyGrid.md)|Collaboration between List and Grid 📐|
